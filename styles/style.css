@@ -22,13 +22,13 @@
 }
 
 .header__link {
+  border-bottom: 1px solid #000;
   font-weight: normal;
   font-size: 18px;
-  text-decoration: underline;
 }
 
 .header__link_active {
-  text-decoration: none;
+  border-bottom: none;
 }
 
 .header__logo {
@@ -120,7 +120,7 @@
   font-size: 22px;
   line-height: 1.27;
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -156,6 +156,7 @@
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
+  flex-grow: 1
 }
 
 .card-link {
@@ -208,6 +209,7 @@
 }
 
 .lots__look-more-link {
+  display: inline-block;
   margin-left: 40px;
   font-size: 20px;
 }
